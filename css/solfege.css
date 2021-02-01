@@ -1,0 +1,65 @@
+﻿/*This file creates the grid for the solfege lesson*/
+
+#solfegeDiv {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 75px 90px 90px 90px 90px;
+}
+
+
+#solfegeImage {
+    grid-column: 2;
+    grid-row: 1 / 6;
+    vertical-align:middle;
+}
+
+
+#solfegeTitle {
+    grid-column: 1;
+    grid-row: 1;
+}
+#solfegeFormula {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#solfegeTonic {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#solfegeRandom {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#solfegeRandom2 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#solfegeRandom2 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.arc text {
+    font: 20px sans-serif;
+    text-anchor: middle;
+    font-weight: bold;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+.title {
+    fill: teal;
+    font-weight: bold;
+}
+
+.selectionLineA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

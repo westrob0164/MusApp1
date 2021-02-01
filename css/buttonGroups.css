@@ -1,0 +1,68 @@
+    .btn-group button {
+    background-color: #b99c46;
+    border: 1px solid 1px solid black;
+    color:#fff2cc; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    font: 18px sans-serif;
+    }
+
+    /* Clear floats (clearfix hack) */
+    .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+    .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+    }
+
+    .btn-group button:hover {
+        background-color: #d2a92d;
+    }
+
+    .buttonWraper {
+    text-align: center;
+    }
+
+    .btn-group2 button {
+        background-color: #00547d;
+        border: 1px solid 1px solid black;
+        color: white; /* White text */
+        padding: 10px 24px; /* Some padding */
+        cursor: pointer; /* Pointer/hand icon */
+        float: left; /* Float the buttons side by side */
+        font: 18px sans-serif;
+        }
+    
+        /* Clear floats (clearfix hack) */
+        .btn-group2:after {
+        content: "";
+        clear: both;
+        display: table;
+        }
+    
+        .btn-group2 button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+        }
+    
+        .btn-group2 button:hover {
+            background-color: #3f51b5;
+        }
+
+        .buttonWraper2 {
+            text-align: center;
+        }
+    
+    #splashImage {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    }
+
+    .secButton{
+        background-color: gold;
+
+    }

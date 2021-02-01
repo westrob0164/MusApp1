@@ -1,0 +1,137 @@
+
+
+.selectionButton {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 7px;
+    background-position:center;
+}
+
+    .selectionButton:hover {
+        background-color: #3f51b5;
+    }
+
+.selectionButton2 {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.selectionButton2:hover {
+    background-color: #3f51b5;
+}
+
+
+.selectionButton3 {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.selectionButton3:hover {
+    background-color: #3f51b5;
+}
+
+.selectionButton4 {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.selectionButton4:hover {
+    background-color: #3f51b5;
+}
+
+
+.solfageNotesButton {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.solfageNotesDisabled {
+    display: block;
+    background-color: grey;
+    border: 1px solid black;
+    color: #c0c0c0;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 170px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+
+.solfageMusicButton {
+    display: block;
+    background-color: #00547d;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 130px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.solfageMusicDisabled {
+    display: block;
+    background-color: grey;
+    border: 1px solid black;
+    color: #c0c0c0;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    width: 140px;
+    border-radius: 7px;
+    background-position: center;
+}
+
+.musApp{
+    cursor: pointer;
+
+}

@@ -1,0 +1,138 @@
+@import url("grid2.css");
+@import url("solfege.css");
+@import url("button.css");
+@import url("slider.css");
+@import url("buttonGroups.css");
+@import url("soundControls.css");
+@import url("vextab.css");
+@import url("master.css");
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1100px 1fr;
+    grid-gap: 0px;
+    grid-auto-rows: minmax(60px, auto);
+}
+.title {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  background-color: #00a5c6;  
+  text-align: center;
+
+}
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: #87CEEB;
+    /*padding: 12px 12px;*/
+    border-radius: 10px;
+}
+
+.contentWraper{
+  padding: 12px 12px;
+}
+.leftColumn {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  background-color: #00a5c6;
+  align-self: start;
+  justify-self: center; 
+  
+}
+.rightColumn {
+  grid-column: 3;
+  grid-row: 2 / 4;
+ background-color: #00a5c6; 
+}
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 4;
+ background-color: #00a5c6; 
+}
+
+.content2 { 
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background-color: #47CEEB;
+  padding: 12px 12px;
+  border-radius: 10px;
+}
+
+.musicContent {
+  background-color: #d6fbfb;	
+}
+	
+body {
+    margin: 20px;
+    background-color: #00a5c6;
+    background-color: wht;
+}
+
+p {
+	font-size: 20px;
+	color: #083194;
+    vertical-align:central
+}
+
+
+li{
+	font-size: 36px;
+	color: #87CEEB;
+	padding: 5px 5px;
+}
+
+input.cbSize {
+    width: 15px;
+    height: 15px;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #083194;
+    vertical-align: central
+}
+
+h2 {
+  font-size: 26px;
+  color: #083194;
+  vertical-align: central
+}
+
+h4 {
+  font-size: 18px;
+  color: #083194;
+  vertical-align: central
+}
+
+
+#text2{
+  font-size: 22px;
+	color: black;
+  vertical-align:central;
+  
+}
+
+#rhythmMiniControls{
+  background-color: #87CEEB;
+  width: 200px; 
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 7px;
+  
+}
+
+
+#instructions {
+	font-size: 18px;
+	color: #021238;
+    vertical-align:central
+}
+
+#legendText {
+  text-align: center;
+  font-size: 100px;
+  cursor: pointer;
+  background-position: center;
+}

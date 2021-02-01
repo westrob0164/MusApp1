@@ -1,0 +1,14 @@
+count,keys,label,value,colour,type,ttImage,midiKey
+1,C,C,C,#FACFE7,major,0sharp,midiC
+1,G,G,G,#FAC1E7,major,1sharp,midiG
+1,D,D,D,#FACFE7,major,2sharp,midiD
+1,A,A,A,#FAC1E7,major,3sharp,midiA
+1,E,E,E,#FACFE7,major,4sharp,midiE
+1,B,B,B,#FAC1E7,major,5sharp,midiB
+.5,F,F♯,F#,#FACFE7,major,6sharp,midiGb
+.5,G,G♭,Gb,#FACFE7,major,6flat,midiGb
+1,D,D♭,Db,#FAC1E7,major,5flat,midiDb
+1,A,A♭,Ab,#FACFE7,major,4flat,midiAb
+1,E,E♭,Eb,#FAC1E7,major,3flat,midiEb
+1,B,B♭,Bb,#FACFE7,major,2flat,midiBb
+1,F,F,F,#FAC1E7,major,1flat,midiF

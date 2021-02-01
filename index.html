@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Musicianship App</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <style>
+        .tooltip {
+          position: absolute;
+          text-align: center;
+          width: 65px;
+          height: 42px;
+          padding: 8px;
+          margin-top: 120px;
+          font: 10px sans-serif;
+          background: #ddd;
+          pointer-events: none;
+        }
+        
+    </style>
+
+    <!--  data files  -->
+    <script src="data/selectionLists.js"></script>
+    <script src="data/rhythmFragments.js"></script>
+    <script src="data/notes.js"></script>
+    <script src="data/instructions.js"></script>
+
+    <!--  javascript library files  -->
+    <script src="js/jsLibs/jquery.min.js"></script>
+    <script src="js/jsLibs/d3.v4.min.js"></script>
+    <script src="js/jsLibs/Base64binary.js"></script>
+    <script src="js/jsLibs/midi.js"></script>
+  
+    <script>VEXTAB_USE_SVG = true</script>
+      <script src="js/jsLibs/vextab-div.js"></script>
+    <script>VexTabDiv.Artist.DEBUG = false</script>    
+     
+</head>
+<body>
+
+    <div class="wrapper">
+        
+        <div class="title">
+            <div class="homePage"><br><h1 class = "musApp">Musicianship App</h1></div>
+            <div class="buttonWraper2">
+                <div class="btn-group2" style="width:100%" id="buttonGroup">
+                    <button style="width:50%" id="Rhythm">Rhythm Training</button>
+                    <button style="width:50%" id="Solfege">Solfege Training</button>
+                </div>          
+            </div>
+
+        </div>
+        <div class="content" id="stuffx">
+            <div class="buttonWraper">
+                <div class="btn-group" style="width:100%" id="buttonGroup">
+                    <h2>Beethoven's Trumpet</h2> by John Baldessari
+                </div>            
+                <div id="splashImage"><br>
+                    <img src="images/BeethovenTrumpet.jpg" alt="Beethoven's Trumpet">
+                </div>
+            </div>
+            <div class="contentWraper"></div>    
+        
+
+        <div class="leftColumn"> </div>
+        <div class="rightColumn"> </div>
+        <div class="footer"> </div>
+    </div>
+
+    <script type="module" src="./js/main.js"></script>
+    
+    <script src="js/renderNotes/renderOutput.js"></script>
+    <script src="js/rhythm/rhythmToggle.js"></script>
+   
+</body>
+</html>
+
+    

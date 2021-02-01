@@ -1,0 +1,133 @@
+Directory of MusicianshipAppDiff
+
+[css]
+[data]
+[images]
+index.html
+
+
+Directory of MusicianshipAppDiff\css
+
+button.css
+buttonGroups.css
+grid2.css 
+master.css      // new one I created to place your link buttons    
+slider.css
+solfege.css
+soundControls.css
+styles.css
+vextab.css 
+
+
+Directory of MusicianshipAppDiff\data
+
+instructions.js
+major.csv
+minor.csv
+notes.js
+rhythmFragments.js
+selectionLists.js  
+
+
+Directory of MusicianshipAppDiff\images
+
+0sharp.png
+1.jpg
+10.jpg 
+11.jpg
+12.jpg 
+13.jpg
+1flat.png
+1sharp.png
+2.jpg
+21.jpg
+22.jpg
+23.jpg
+24.jpg
+25.jpg
+26.jpg
+27.jpg
+28.jpg
+29.jpg
+2flat.png
+2sharp.png
+3.jpg
+3flat.png
+3sharp.png
+4.jpg
+4721.jpg
+4flat.png
+4sharp.png
+5.jpg
+5flat.png
+5sharp.png
+6.jpg
+6flat.png
+6sharp.png
+7.jpg
+7flat.png
+7sharp.png
+8.jpg
+9.jpg
+Band_of_the_Ceremonial_Guard.jpg   
+BeethovenTrumpet.jpg
+sound_ of_music.jpg
+
+
+Directory of MusicianshipAppDiff\js
+
+[jsLibs]        
+[renderNotes]
+[rhythm]
+[solfage]  
+indexPages.js      
+main.js
+
+
+Directory of MusicianshipAppDiff\js\jsLibs
+Base64binary.js   
+d3.v4.min.js
+jquery.min.js     
+midi.js
+vexflow-min.js    
+vextab-div.js
+
+
+Directory of MusicianshipAppDiff\js\renderNotes
+renderOutput.js   
+
+
+Directory of MusicianshipAppDiff\js\rhythm
+
+getMusicInfo.js
+midiRhythmSetup.js    
+rhythmButtons.js      
+rhythmMidi.js
+rhythmSelection.js    
+rhythmToggle.js       
+runRhythmSection.js
+
+
+Directory of MusicianshipAppDiff\js\solfage
+     
+circleOfFifths.js
+createFourthLevel.js
+createSolfege.js
+createSolfegeMusicLine.js
+midiSound.js
+outputStringSolfage.js
+playTonic.js
+solfageButtons.js
+solfageSelection.jssolfegeMidi.js
+
+
+Directory of MusicianshipAppDiff\soundfont
+    
+acoustic_grand_piano-ogg.js   
+flute-ogg.js
+french_horn-ogg.js
+marimba-ogg.js
+steel_drums-ogg.js
+violin-ogg.js
+voice_oohs-ogg.js
+ 

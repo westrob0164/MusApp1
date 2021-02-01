@@ -1,0 +1,167 @@
+﻿/*this style sheet creates the secondary grid */
+
+#selectionDiv {
+    display: grid;
+    grid-template-columns: 103px 103px 103px 103px 103px 103px 103px 103px 103px;
+    grid-template-rows: 0px 85px 110px;
+    align-items: stretch;
+}
+
+#selectionDiv2 {
+    display: grid;
+    grid-template-columns: 103px 103px 103px 103px 103px 103px 103px 103px 103px 103px;
+    grid-template-rows: 85px 85px 110px;
+    align-items: stretch;
+}
+
+#rhythmFragment1 {
+    grid-column: 1;
+    grid-row: 2;    
+}
+
+#rhythmFragment2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#rhythmFragment3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#rhythmFragment4 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#rhythmFragment5 {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+#rhythmFragment6 {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+#rhythmFragment7 {
+    grid-column: 7;
+    grid-row: 2;
+}
+
+#rhythmFragment8 {
+    grid-column: 8;
+    grid-row: 2;
+}
+
+#rhythmFragment9 {
+    grid-column: 9;
+    grid-row: 2;
+}
+
+
+#rhythmFragment21 {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+#rhythmFragment22 {
+    grid-column: 3 / 5;
+    grid-row: 1;
+}
+
+#rhythmFragment23 {
+    grid-column: 5 / 7;
+    grid-row: 1;
+}
+
+#rhythmFragment24 {
+    grid-column: 7 / 9;
+    grid-row: 1;
+}
+
+#rhythmFragment25 {
+    grid-column: 9 / 11;
+    grid-row: 1;
+}
+
+#rhythmFragment26 {
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+#rhythmFragment27 {
+    grid-column: 4 / 6;
+    grid-row: 2;
+}
+
+#rhythmFragment28 {
+    grid-column: 6 / 8;
+    grid-row: 2;
+}
+
+#rhythmFragment29 {
+    grid-column: 8 / 10;
+    grid-row: 2;
+}
+
+.selectionLineA {
+    text-align: center;
+}
+
+.selectionLineB {
+    text-align: center;
+}
+
+#timeSignature {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    background-color: #87CEEB;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 60px 30px 30px;
+}
+
+#timeSigTitle {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+#beatPerMeasureList {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: right;
+}
+
+#beatPerMeasureText {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: left;
+    font-size: 18px;
+}
+
+#beatValueList {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: right;
+}
+
+#beatValueText {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: left;
+    font-size: 18px;
+}
+
+#noOfMeasures {
+    grid-column: 4 / 7;
+    grid-row: 3;
+}
+
+#selectionButtons {
+    grid-column: 7 / 10;
+    grid-row: 3;
+    text-align: center;
+    vertical-align: middle;
+}

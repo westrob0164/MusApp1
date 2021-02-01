@@ -1,0 +1,55 @@
+/*Define the width of the outside container.*/
+.rangeslider{
+    width: 400px;
+    }
+
+/*Define CSS for the slider like height, width, background, opacity etc for the slider.*/
+.myslider {
+    -webkit-appearance: none;
+    background: #FCF3CF  ;
+    width: 400px;
+    height: 20px;
+    opacity: 2;
+   }
+
+/*Add Mouse hovering effects.*/
+.myslider:hover {
+    opacity: 1;
+}
+
+/*Add WebKit for browsers to change the default look of range sliders.*/
+.myslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #34495E  ;
+    width: 10px;
+    height: 20px;
+}
+
+/*Define the width of the outside container.*/
+.rangeslider2{
+    width: 200px;
+    }
+
+/*Define CSS for the slider like height, width, background, opacity etc for the slider.*/
+.myslider2 {
+    -webkit-appearance: none;
+    background: #FCF3CF  ;
+    width: 200px;
+    height: 20px;
+    opacity: 2;
+   }
+
+/*Add Mouse hovering effects.*/
+.myslider2:hover {
+    opacity: 1;
+}
+
+/*Add WebKit for browsers to change the default look of range sliders.*/
+.myslider2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #34495E  ;
+    width: 10px;
+    height: 20px;
+}

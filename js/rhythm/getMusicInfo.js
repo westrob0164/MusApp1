@@ -29,8 +29,9 @@ export function getMusicInfo(beatType) {
 // get the rhythm fragment list
 function rhythmFragArray(beatType){ 
  
-    if (beatType == 1) {var rhythFragment = rhythmFragments.rhythmHalf;}
-    else               {var rhythFragment = rhythmFragments.rhythmQuarter;}
+    if (beatType == 1)      {var rhythFragment = rhythmFragments.rhythmHalf;}
+    else if (beatType == 2) {var rhythFragment = rhythmFragments.rhythmComplex;}
+    else                    {var rhythFragment = rhythmFragments.rhythmQuarter;}
 
     //zero out the array
     var rhythmFragIncluded = [];
@@ -65,6 +66,7 @@ function keyAndTimeSignature() {
             Array.prototype.push.apply(keyAndTimeSig, keyAndTimeSigAdd);            
         }
     }
+    console.log("key", keyAndTimeSig);
     return keyAndTimeSig;
 }
    
@@ -85,10 +87,16 @@ function drawMusicLine(beatType) {
     var clef = "percussion";
 
     if (beatType == 1) {var beatValue = 2;}
+    else if (beatType == 2) {var beatValue = 2;}
     else               {var beatValue = 4;}
 
     //create time signature 
-    var time = `${keyAndTime[0]}/${beatValue}`;                                  
+    if (beatType == 2) {
+        var time = `${keyAndTime[0]*3}/8`;
+    } else {
+        var time = `${keyAndTime[0]}/${beatValue}`;
+    }
+                                      
 
     var barLocation = keyAndTime[0];
 
@@ -154,7 +162,14 @@ function drawMusicLine(beatType) {
         }else{
             musicLine = `${musicLine} ${rhythmFragments.rhythmHalf[11].fragment}|`
         }
-        
+    } else if (beatType == 2) {
+        if (keyAndTime[0] == 4) {
+            musicLine = `${musicLine} ${rhythmFragments.rhythmComplex[26].fragment}|`
+        } else if (keyAndTime[0] == 3){
+            musicLine = `${musicLine} ${rhythmFragments.rhythmComplex[27].fragment}|`
+        }else{
+            musicLine = `${musicLine} ${rhythmFragments.rhythmComplex[28].fragment}|`
+        }
     } else {     
         if (keyAndTime[0] == 4) {
             musicLine = `${musicLine} ${rhythmFragments.rhythmQuarter[9].fragment}|`
@@ -189,7 +204,7 @@ function drawMusicLine(beatType) {
     var midiRhythmOutput = midiDrumStringAddEnding.concat(endingBeats);
 
     var returnValues = [musicLine , rhythmLineLength, midiRhythmOutput, numberOfRhythmFragments, barLocation];
-    
+    console.log("the return Values", returnValues);
     return returnValues;
 }
 

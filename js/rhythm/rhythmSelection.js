@@ -20,6 +20,20 @@ export function rhythmPractice(beatType) {
         }
         
     }
+    // complex time
+    else if (beatType == 2) {
+        rhythmSelStr = `<div class="complexContainer">`;
+
+        for (var i = 1; i < 27; i++) {
+
+            var image = i + 40;
+
+            rhythmSelStr = `${rhythmSelStr}<div class="complexPattern" id="rhythmFragment${image}" onclick="rhythmToggle(${image}, ${i-1})">`;
+            rhythmSelStr = `${rhythmSelStr}<img src="images/complex/${i}.png"></div>`;
+        }
+        
+    }
+
     // one beat patterns
     else {
         rhythmSelStr = `<div class="selectionLineA" id="selectionDiv">`;
@@ -47,6 +61,10 @@ export function rhythmPractice(beatType) {
         var beatsPerMeasure = selectionLists.halfTime;
         var noBeatsPerMeaure = 3;
         var instructionNumber = 13;
+    }else if (beatType == 2) {
+        var beatsPerMeasure = selectionLists.complexTime;
+        var noBeatsPerMeaure = 3;
+        var instructionNumber = 13;
     }else{
         var beatsPerMeasure = selectionLists.quarterTime;
         var noBeatsPerMeaure = 3;
@@ -69,6 +87,10 @@ export function rhythmPractice(beatType) {
     //2 beat patterns
     if (beatType == 1) {
         rhythmSelStr = `${rhythmSelStr}<p id = "text2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>`;        
+    }
+    // complex time
+    else if (beatType == 2) {
+        rhythmSelStr = `${rhythmSelStr}<p id = "text2">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>`
     }
     // one beat patterns
     else {

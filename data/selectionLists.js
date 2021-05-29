@@ -13,6 +13,11 @@ var selectionLists = {
       {"id": "3", "value": 3, "selected":"no"},
       {"id": "4", "value": 4, "selected":"no"},
       ],
+  "complexTime":[ 
+      {"id": "2", "value": 6, "selected":"yes"},
+      {"id": "3", "value": 9, "selected":"no"},
+      {"id": "4", "value": 12, "selected":"no"},
+          ],
     "beatValue":[	  	  
       {"id": "2", "value": 2, "selected":"no"},
       {"id": "4", "value": 4, "selected":"yes"},

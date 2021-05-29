@@ -1,7 +1,7 @@
 
-import { getMusicInfo  } from './getMusicInfo.js';
+import { getMusicInfo    } from './getMusicInfo.js';
 import { rhythmPractice  } from './rhythmSelection.js';
-import { midiRhythmSetup  } from './midiRhythmSetup.js';
+import { midiRhythmSetup } from './midiRhythmSetup.js';
 
 
 export function runRhythmSection(beatType) {
@@ -15,7 +15,7 @@ export function runRhythmSection(beatType) {
     var rhythmSelStr = rhythmPractice(beatType);
 
     // zero out the start Rhythm values array
-    rhythmFragments.startRhythmValues  = [0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+    rhythmFragments.startRhythmValues  = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
    
     $(".contentWraper").html(rhythmSelStr);	
 

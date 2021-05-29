@@ -6,6 +6,7 @@
 @import url("soundControls.css");
 @import url("vextab.css");
 @import url("master.css");
+@import url("complexLine.css");
 
 .wrapper {
     display: grid;

@@ -18,9 +18,11 @@ export function createIndexPages(type) {
         $(".contentWraper").empty();
 
         var rhythmPage = `<div class="btn-group" style="width:100%">`;
-        rhythmPage =  `${rhythmPage}<button style="width:33%" id="rhythmInstructions" class="secButton">Rhythm Instructions</button>`;
-        rhythmPage =  `${rhythmPage}<button style="width:34%" id="simple">1/4 note beats</button>`;
-        rhythmPage =  `${rhythmPage}<button style="width:33%" id="simpleHalf">1/2 note beats</button>`;
+        rhythmPage =  `${rhythmPage}<button style="width:25%" id="rhythmInstructions" class="secButton">Rhythm Instructions</button>`;
+        rhythmPage =  `${rhythmPage}<button style="width:25%" id="simple">1/4 note beats </button>`;
+        rhythmPage =  `${rhythmPage}<button style="width:25%" id="simpleHalf">1/2 note beats</button>`;
+        rhythmPage =  `${rhythmPage}<button style="width:25%" id="complex">dotted 1/4 note beats</button>`;
+        // rhythmPage =  `${rhythmPage}<button style="width:22%" id="complexHalf">dotted 1/2 note beats</button>`;
         rhythmPage =  `${rhythmPage}</div>`;
         rhythmPage =  `${rhythmPage}<div id="splashImage"><br><img src="images/Band_of_the_Ceremonial_Guard.jpg" alt="Band" height="645" width="1050"></div>`;
         rhythmPage =  `${rhythmPage}</div>`;
@@ -49,6 +51,21 @@ export function createIndexPages(type) {
             runRhythmSection(1);
         
         });
+
+
+        $("#complex").on("click", function(){         
+    
+            runRhythmSection(2);
+        
+        });
+
+
+        $("#complexHalf").on("click", function(){         
+    
+            runRhythmSection(3);
+        
+        });
+
 
       //create solfage pages  
     } else {

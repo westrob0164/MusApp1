@@ -49,7 +49,7 @@ window.onload = function () {
                        "steel_drums"
                     ],
 		onprogress: function(state, progress) {
-			console.log("progress", state, progress);
+			// console.log("progress", state, progress);
 		}
 	});
 };
